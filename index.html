@@ -13,22 +13,23 @@
     <!--Slickの読み込み  -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="">MyProfile</a>
+      <div class="container-fluid" id="hover">
+        <a class="navbar-brand border border-1　fs-3" style="color:black" href="">MyProfile</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">About</a>
+              <a class="nav-link active fs-3" aria-current="page" style="color:black" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Works</a>
+              <a class="nav-link fs-3" style="color:black" href="#works">Works</a>
             </li>
             
           </ul>
@@ -51,6 +52,19 @@
   </header>
   <main>
     <article>
+      <div class="carousel">
+        <div>
+          <img src="images/main.png" alt="">
+        </div>
+        <div>
+          <img src="images/main2.png" alt="">
+        </div>
+        <div>
+          <img src="images/main3.png" alt="">
+        </div>
+      </div>
+
+
 
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -62,10 +76,10 @@
           <div class="carousel-item active">
             <img src="images/main.png" class="d-block w-100" alt="カルーセル画像1">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src="images/main2.png" class="d-block w-100" alt="カルーセル画像2">
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <img src="images/main3.png" class="d-block w-100" alt="カルーセル画像3">
           </div>
         </div>
@@ -81,10 +95,10 @@
 
       <section>
         <div class="container">
-          <h1 class="section-title text-center mt-5">About</h1>
+          <h1 class="section-title text-center mt-5" id="about">About</h1>
           <div class="row">
             <div class="col-md-5">
-              <img src="images/about.png" class="rounded-circle float-end img-fluid" alt="">
+              <img src="images/about.png" class="rounded-circle float-end img-fluid border border-3 p-1" style="color:black" alt="">
             </div>
             <div class="col-md-7">
               <p class="fs-4">Kazuki Asahina</p>
@@ -120,7 +134,7 @@
              <!-- bootstrapの記述 -->
             <section>
               <div class="container">
-                <h1 class="section-title text-center mt-5">Works</h1>
+                <h1 class="section-title text-center mt-5"id="works">Works</h1>
                 <div class="row">
                   <div class="col">
                     <img src="images/works1.png"id="image" alt="">
@@ -151,7 +165,7 @@
     
 
   </footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
