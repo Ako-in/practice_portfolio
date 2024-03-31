@@ -1,0 +1,101 @@
+/* body{
+  font-size:25px;
+}
+header{
+  font-size: 30px;
+  display: flex;
+  
+
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+  max-width: 960px;
+}
+
+/* menu */
+/* #menu{
+  
+  
+  
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  padding: 0 20px;
+  
+
+} */
+/* nav menuの中のMyProfileの部分 */
+/* #profile{
+  border: solid black 1px;
+  padding: 0 5px;
+} */
+
+/* メイン画像 */
+/* .main-photo{
+  width: 100%;
+} */
+/* section title の位置*/
+/* .section-title{
+  text-align: center;
+} */
+
+/* #about-section{
+  display: flex;
+  justify-content: center;
+} */
+
+/* about写真 */
+/* .about-left>img{
+  
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  
+} */
+
+/* Aboutの名前 */
+/* .about-right>p{
+  font-weight: bold;
+  font-size: 20px;
+} */
+/* 
+#works-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  /* margin: 20px auto; */
+  
+
+}
+/* WorksのPタグコメント */
+/* .place{
+  overflow-wrap: break-word;
+  width: 340px;
+  text-align: center;
+}
+.item{
+  width: 25%;
+  margin: 20px auto;
+} */
+/* worksの真ん中 */
+/* .item-center{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px auto;
+} */
+/* フッター */
+/* footer{
+  text-align: center;
+}
+
+@media (max-width:767px){
+  .item{
+    width: 100%;
+    text-align: center;
+  }
+}  */
+
