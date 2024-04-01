@@ -1,17 +1,13 @@
 console.log('111');
 // Worksセクションの画像にカーソルが当たった時
-// $(function(){
-//   $('#image').on('mouseover',function(){
-//     console.log('111');
-//     $(this).animate({
-//       opacity:1.0,
-//     });
-//   });
-// });
-
-$('#hover').mouseover(function(){
-  console.log('222');
-})
+$(function(){
+  $('#image').on('mouseover',function(){
+    console.log('111');
+    $(this).animate({
+      opacity:1.0,
+    });
+  });
+});
 
 $('#image').mouseover(function() {
 
